@@ -28,7 +28,7 @@
 }
 
 .imglogo {
-  width: 70px;
+  width: 110px;
 }
 
 .amia {
@@ -46,28 +46,7 @@
 
 .imgcard {
   width: 100%;
-  -webkit-animation: myanimcard 2s infinite;
-          animation: myanimcard 2s infinite;
-}
-.imgcardhover {
-  width: 100%;
-  transition: all .2s ease-in-out;
- 
-}
-.imgcardhover:hover{
-  transform:  scale(1.1) ;
-}
-
-@-webkit-keyframes myanimcard {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(-3deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+  animation: myanimcard 2s infinite;
 }
 
 @keyframes myanimcard {
@@ -81,6 +60,10 @@
     transform: rotate(0deg);
   }
 }
+.imgcardhover {
+  width: 100px;
+}
+
 .testimo h6 {
   color: #2B190F;
   font-size: 1.5rem;
@@ -181,20 +164,7 @@ section h4 {
 }
 .obj {
   width: 40%;
-  -webkit-animation: myanim 3s infinite;
-          animation: myanim 3s infinite;
-}
-
-@-webkit-keyframes myanim {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: translate(100%) rotate(-40deg);
-  }
-  100% {
-    transform: translate(0px) rotate(0deg);
-  }
+  animation: myanim 3s infinite;
 }
 
 @keyframes myanim {
@@ -209,20 +179,20 @@ section h4 {
   }
 }
 .sfondoanacardi {
-  background-position-x: right;
+  background-position-x: center;
   background-position-y: center;
   background-image: url("../img/home/sfondo.webp");
-  background-size: 200px, 400px;
+  background-size: 200px;
   background-repeat: no-repeat;
   position: relative;
- 
   
-
+  z-index: 1000000 !important;
+  overflow: visible !important;
 }
 
 @media screen and (min-width: 768px) {
   .sfondoanacardi {
-    background-size: 80%;
+    background-size: 70%;
   }
 }
 .divisorio {

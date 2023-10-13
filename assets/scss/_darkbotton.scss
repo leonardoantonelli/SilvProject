@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #toggle-btn {
     display: inline-block;
     width:43px;
@@ -48,54 +47,3 @@
     }
 }
 
-=======
-#toggle-btn {
-    display: inline-block;
-    width:43px;
-    height: 24px;
-    background-color: $panna;
-    background-size: 100%;
-    border-radius: 24px;
-    position: relative;
-    transition: all ease-in-out .4s; /* animati tutti gli elementi (all), accelerazione ease-in-out, durata 0.4 secondi */
-    cursor: pointer;
-}
-
-#toggle-btn::before {
-    position: absolute;
-    width:18px;
-    height: 18px;
-    background-color: $marrone;
-    border-radius: 50%;
-    left:3px;
-    top:3px;
-    content: '';
-    transition: all ease-in-out .4s;
-    z-index: 10;
-}
-
-
-#toggle-btn.toggle-btn--dark {
-    background-color:$panna;
-}
-
-#toggle-btn.toggle-btn--dark::before {
-    left: 22px;
-}
-
-.dark-mode{
-    background-color: $panna;
-    color: $marrone;
-    h1,h4{
-        color: $marrone;
-    }
-    div.section2{
-        background-color: $marrone;
-        h4,h5,p{
-            color: $panna;
-        }
-        
-    }
-}
-
->>>>>>> 29b3b51984bad5d2ea44309442dd1ad681b5dcf3

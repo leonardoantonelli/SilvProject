@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+.buttone {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  height: 8%;
+  width: 80%;
+  color: #2B190F;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttone {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .buttone {
+    width: 30%;
+  }
+}
+.navbarmia {
+  background-color: #2B190F !important;
+}
+
+.imglogo {
+  width: 70px;
+}
+
+.amia {
+  color: #FFFFFF !important;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.cardmia {
+  width: 133px;
+}
+.cardmia img {
+  width: 100%;
+}
+
+.imgcard {
+  width: 100%;
+  -webkit-animation: myanimcard 2s infinite;
+          animation: myanimcard 2s infinite;
+}
+.imgcardhover {
+  width: 100%;
+  transition: all .2s ease-in-out;
+ 
+}
+.imgcardhover:hover{
+  transform:  scale(1.1) ;
+}
+
+@-webkit-keyframes myanimcard {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes myanimcard {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.testimo h6 {
+  color: #2B190F;
+  font-size: 1.5rem;
+}
+.testimo p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.backg {
+  background-color: #2B190F;
+  width: 100%;
+}
+.backg div h5 {
+  color: #F9E7E5;
+  font-size: 1em;
+}
+
+.colorb {
+  color: #F9E7E5;
+}
+
+#toggle-btn {
+  display: inline-block;
+  width: 43px;
+  height: 24px;
+  background-color: #F9E7E5;
+  background-size: 100%;
+  border-radius: 24px;
+  position: relative;
+  transition: all ease-in-out 0.4s; /* animati tutti gli elementi (all), accelerazione ease-in-out, durata 0.4 secondi */
+  cursor: pointer;
+}
+
+#toggle-btn::before {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #2B190F;
+  border-radius: 50%;
+  left: 3px;
+  top: 3px;
+  content: "";
+  transition: all ease-in-out 0.4s;
+  z-index: 10;
+}
+
+#toggle-btn.toggle-btn--dark {
+  background-color: #F9E7E5;
+}
+
+#toggle-btn.toggle-btn--dark::before {
+  left: 22px;
+}
+
+.dark-mode {
+  background-color: #F9E7E5;
+  color: #2B190F;
+}
+.dark-mode h1, .dark-mode h4 {
+  color: #2B190F;
+}
+.dark-mode div.section2 {
+  background-color: #2B190F;
+}
+.dark-mode div.section2 h4, .dark-mode div.section2 h5, .dark-mode div.section2 p {
+  color: #F9E7E5;
+}
+
+body {
+  padding: 0px 10px;
+  background-color: #2B190F;
+  text-transform: uppercase;
+  line-height: 0.9em;
+}
+
+section h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+section h4 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.containersize {
+  padding-top: 10px;
+  display: flex;
+  height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .containersize {
+    height: 400px;
+  }
+}
+.obj {
+  width: 40%;
+  -webkit-animation: myanim 3s infinite;
+          animation: myanim 3s infinite;
+}
+
+@-webkit-keyframes myanim {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(100%) rotate(-40deg);
+  }
+  100% {
+    transform: translate(0px) rotate(0deg);
+  }
+}
+
+@keyframes myanim {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: translate(100%) rotate(-40deg);
+  }
+  100% {
+    transform: translate(0px) rotate(0deg);
+  }
+}
+.sfondoanacardi {
+  background-position-x: right;
+  background-position-y: center;
+  background-image: url("../img/home/sfondo.webp");
+  background-size: 200px, 400px;
+  background-repeat: no-repeat;
+  position: relative;
+ 
+  
+
+}
+
+@media screen and (min-width: 768px) {
+  .sfondoanacardi {
+    background-size: 80%;
+  }
+}
+.divisorio {
+  width: 100%;
+}
+
+.section2 {
+  background-color: #F9E7E5;
+}
+.section2 h4 {
+  padding: 7px;
+  color: #2B190F;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 0.9em;
+  letter-spacing: 0.00001mm;
+}
+
+.section2b {
+  width: 100%;
+}
+.section2b div {
+  width: 90%;
+}
+.section2b div img {
+  width: 100%;
+}
+
+.card-body {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1em;
+  color: #2B190F;
+  margin-bottom: 50px;
+}
+.card-body h5 {
+  color: #2B190F;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+card-titlemiooo {
+  text-align: center;
+  padding: 7px;
+  color: #2B190F;
+  line-height: 0.9em;
+  letter-spacing: 0.00001mm;
+  letter-spacing: 0.1em;
+}/*# sourceMappingURL=style.css.map */

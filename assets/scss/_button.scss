@@ -1,0 +1,21 @@
+.buttone{
+    background-color: $bianco;
+border-radius: 20px;
+height: 8%;
+width: 80%;
+color: $marrone;
+font-size: 1.4rem;
+font-weight: 800;
+border: none;
+text-transform: uppercase;
+ margin-top: 20px;
+ margin-bottom: 20px;}
+ 
+ @media screen and (min-width: 768px) {
+    .buttone{
+        width: 60%;}}
+
+         
+ @media screen and (min-width: 1000px) {
+    .buttone{
+        width: 30%;}}

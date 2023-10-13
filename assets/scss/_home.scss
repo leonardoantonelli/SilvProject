@@ -1,0 +1,124 @@
+//font-family: 'Oswald', sans-serif;
+//RESET GENERALE 
+body{
+    padding: 0px 10px;
+    background-color: $marrone;
+    text-transform: uppercase;
+    line-height: 0.9em;
+}
+
+
+section{
+  h1{
+    font-size: 2rem;
+    font-weight: 900;
+   
+    color: $bianco; 
+}
+h4{
+    font-weight: 500;
+    font-size: 1rem;
+    color: $bianco;
+
+}
+}
+
+
+
+
+.containersize{
+    padding-top: 10px;
+    display: flex;
+    height: 300px ;}
+    
+    @media screen and (min-width: 768px) {
+      .containersize{
+        height: 400px
+    }
+  }    
+
+.obj{ width: 40%;
+  animation: myanim 3s infinite;
+  //transform: translate(0px, 70px) aggiungere animazione
+    }
+@keyframes myanim {
+  0% {
+    transform: rotate(0deg);
+  } 
+  50%{
+    transform: translate(100%) rotate(-40deg)
+  }
+    100%{
+      transform: translate(00px) rotate(0deg)
+
+    } } ;
+
+  
+
+.sfondoanacardi{
+    
+    background-position-x: center;
+    background-position-y: center;
+    background-image: url("../img/home/sfondo.webp");
+   background-size: 120%;
+   background-repeat: no-repeat;
+   position: relative;
+   top: -40px;
+   }
+
+   @media screen and (min-width: 768px) {
+    .sfondoanacardi{
+      background-size: 80%;
+  } }
+
+   .divisorio{
+    width: 100%;
+   }
+  
+   .section2{
+    background-color: $panna;
+     h4{
+       
+    padding: 7px;
+    color: $marrone;
+    font-weight: 600;
+    
+    font-size: 3.2rem;
+    line-height: 0.9em;
+    letter-spacing: 0.00001mm;
+    }
+
+    
+   }
+  .section2b{
+    width: 100%;
+    
+    div{
+        width: 90%;
+      img{
+        width: 100% 
+      }
+    }
+  }
+  .card-body{
+    
+    h5{
+        color: $marrone;
+    font-weight: 700;
+    font-size:1.8rem;
+  }
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1em;
+  color: $marrone;
+  margin-bottom: 50px;
+}
+  card-titlemiooo {
+    text-align: center; 
+    padding: 7px;
+    color: $marrone;
+    
+    line-height: .9em;
+    letter-spacing: 0.00001mm;
+    letter-spacing: 0.1em;
+    }

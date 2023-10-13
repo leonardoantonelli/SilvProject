@@ -1,0 +1,32 @@
+.cardmia{
+    width: 133px;
+    
+   
+img {
+    width: 100%;}
+    
+}
+
+
+.imgcard {
+    width: 100%;
+    
+    animation: myanimcard 2s infinite;
+    //transform: translate(0px, 70px) aggiungere animazione
+      } 
+  
+  @keyframes myanimcard {
+    0% {
+      transform: rotate(0deg);
+    } 
+    50%{
+      transform: rotate(-3deg)
+    }
+      100%{
+        transform: rotate(0deg)
+  
+      } } 
+
+      .imgcardhover{
+        width: 100px;
+      }
